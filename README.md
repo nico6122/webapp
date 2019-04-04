@@ -1,27 +1,23 @@
 # Prueba
+PROBLEMA 3: WebApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+FUE REALIZADO CON:
 
-## Development server
+-ULTIMA VERSION VISUAL STUDIO CODE
+-node.js v11.13
+-angular cli
+-boostrap 4
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+DETALLES DE LO REALIZADO:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+CONSTA DE 2 SERVICIOS:
 
-## Build
+SERVICIO/AUTH.SERVICE  =  ESTA LO CORRESPONDIENTE A LA AUTHENTIFICACION, EL TOKENS
+                          Y CURRENTUSER.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+SERVICIO/API.SERVICE   =  SE ENCUETRA LA MUESTRA DE LOS DATOS Y LA CONEXION CON EL SERVICIO
+                          WEB DEL "PROBLEMA 2" (recordar cambiar la ruta a la que utilicen)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+El resto son comoponentes y unas interfaces para recibir la información. Lo mas importante a considerar
+son los 2 archivos mensionados, ya en ellos se encentras las url de los servicios.
